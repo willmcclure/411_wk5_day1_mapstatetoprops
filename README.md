@@ -23,7 +23,7 @@ Clone this repo and run `npm i` and then `npm start`
 
 #### Project Work
 
-* Let's start with the `Home` component. Navigate to it and notice that is is importing `cars.json` and mapping through that to display the cars. We want to attach "cars" to the "props" of this component so that it can be re-used. Under the "containers" folder, create a new file called `Home.js`.
+* Let's start with the `Home` component. Navigate to it and notice that it is importing `cars.json` and mapping through that to display the cars. We want to attach "cars" to the "props" of this component so that it can be re-used. Under the "containers" folder, create a new file called `Home.js`.
 
 * Inside `Home.js` do the following:
     * Import "connect" from "react-redux"
@@ -31,7 +31,7 @@ Clone this repo and run `npm i` and then `npm start`
     * Write a `mapStateToProps` function that maps "cars" to "state.cars"
     * Export the connected component and mapStateToProps combination
 
-* Now, go to the `Router.js` file and see where `Home` is imported at the top of the file. Change it's path so that it references `containers` instead of `components`.
+* Now, go to the `Router.js` file and see where `Home` is imported at the top of the file. Change its path so that it references `containers` instead of `components`.
 
 * Go to the `Home` component (in the components folder) and replace the use of "cars" with "props.cars". Everything should have stayed the same (that means it worked). If so, go ahead and remove the import for `cars.json` at the top of the file.
 
@@ -41,7 +41,7 @@ Clone this repo and run `npm i` and then `npm start`
 
 * Everything look good so far? If not, ask the instructor.
 
-* Navigate to the `Dashboard` component and see the text, "Welcome, Name". Let's change that. To do that we are going to add a user to our global state and then pull it into the dashboard component. 
+* Navigate to the `Dashboard` component and see the text, "Welcome, Name". Let's change that. To do that we are going to add a user to our global state and then pull it into the `Dashboard component. 
 
 * Go to the `redux/state.js` file and add a property called "user" above cars. Give it the following value:
 ```
