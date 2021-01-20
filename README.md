@@ -41,7 +41,7 @@ Clone this repo and run `npm i` and then `npm start`
 
 * Everything look good so far? If not, ask the instructor.
 
-* Navigate to the `Dashboard` component and see the text, "Welcome, Name". Let's change that. To do that we are going to add a user to our global state and then pull it into the `Dashboard component. 
+* Navigate to the `Dashboard` component and see the text, "Welcome, Name". Let's change that. To do that we are going to add a user to our global state and then pull it into the `Dashboard` component. 
 
 * Go to the `redux/state.js` file and add a property called "user" above cars. Give it the following value:
 ```
